@@ -74,18 +74,18 @@ const pedirDatos = async (pagina) => {
             const p2 = document.createElement('p');
             galeria.appendChild(cubo);
 
-            //Primer palabra en mayuscula
+            //Primer palabra en mayuscula (Nombre)
             let nombre = personaje.name.charAt(0).toUpperCase() + personaje.name.slice(1).toLowerCase();
 
             cubo.appendChild(p).innerHTML = personaje.id + " " + nombre;
             cubo.appendChild(img);
             img.src = personaje.sprites.front_default;
 
-            //Primer palabra en mayuscula
+            //Primer palabra en mayuscula (Tipo 1)
             let tipo1 = personaje.types[0].type.name.charAt(0).toUpperCase() + personaje.types[0].type.name.slice(1).toLowerCase();
             
             if (personaje.types.length > 1) {
-                //Primer palabra en mayuscula
+                //Primer palabra en mayuscula (Tipo 2)
                 let tipo2 = personaje.types[1].type.name.charAt(0).toUpperCase() + personaje.types[1].type.name.slice(1).toLowerCase();
                 cubo.appendChild(p2).innerHTML = "Tipo: " + tipo1 + ", " +tipo2; 
             } else {
