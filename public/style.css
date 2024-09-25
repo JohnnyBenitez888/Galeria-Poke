@@ -1,0 +1,29 @@
+.imagen{
+    width: 300px;
+    height: 229px;
+}
+.cubos{
+    background-color: rgb(147, 211, 233);
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+p{
+    font-weight: bold;
+    text-align: center;
+}
+#botones{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+
+.boton {
+    background-color: rgb(233, 193, 147);
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+    border-radius: 50px;
+}
